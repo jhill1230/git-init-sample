@@ -1,0 +1,95 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;  
+}
+body{
+    margin: 0;
+}
+
+header{
+    border: 1px dotted black;
+    position: fixed;
+    height: 48px;
+    width: 100%;
+    top: 0;
+    background-color: #266250;
+    z-index: 10;
+}
+
+nav{
+    border: 1px dotted green;
+    position: absolute;
+    right: 0;
+    padding: 16px 0;
+}
+
+nav a{
+    margin: 16px 18px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header div{
+    height: 8px;
+    background-color: #E8CEBF;
+    position: absolute;
+    width: 100%;
+    top: 48px;
+}
+
+#first-section{
+    text-align: center;
+    padding: 16px 0;
+    padding-top: 56px;
+    background-color: #FDF8F5;
+}
+
+figcaption{
+    margin: 16px;
+}
+
+.text-brown{
+    color: #4F4847;
+}
+
+#second-section{
+    padding: 16px;
+    text-align: center;
+    background-color: #E8CEBF;
+}
+
+h2{
+    margin-top: 0;
+}
+
+#name, #email{
+    width: 270px;
+    margin: 2px;
+}
+
+form{
+    border: 2px solid #DDB094;
+    border-radius: 10px;
+    width: 30%;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+#send{
+    background-color: #4F4847;
+    color: whitesmoke;
+    padding: 4px 16px;
+    font-size: 6px;
+}
+
+footer{
+    text-align: center;
+    background-color: #266250;
+    color: whitesmoke;
+    border-bottom: 6px solid #4F4847;
+}
+
+footer p{
+    margin: 0;
+    padding: 16px;
+    font-size: 10px;
+}
